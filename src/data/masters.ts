@@ -1,0 +1,207 @@
+import type { Master } from '../types'
+
+export const masters: Master[] = [
+  {
+    id: 'hongxiannv',
+    name: '红线女',
+    role: '旦角 · 红腔',
+    birthYear: 1924,
+    deathYear: 2013,
+    photoUrl: '/images/hongxiannv.webp',
+    troupe: '广东粤剧院',
+    signaturePlays: ['《搜书院》', '《关汉卿》', '《昭君出塞》', '《荔枝颂》'],
+    description:
+      '粤剧红腔创始人，嗓音甜润婉转、真假声结合自如，唱腔极具穿透力。她将声乐技巧与粤剧程式融合，塑造了翠莲、朱帘秀等经典形象，被誉为粤剧的一代宗师。',
+    timeline: [
+      { year: '1924', event: '生于广州西关，原名邝健廉' },
+      { year: '1942', event: '成名于省港，逐渐形成“红腔”' },
+      { year: '1956', event: '主演《搜书院》，赴京演出轰动一时' },
+      { year: '1963', event: '创立红线女艺术中心，系统总结红腔' },
+      { year: '2009', event: '获“中国戏曲终身成就奖”' },
+    ],
+    lineage: [
+      { name: '舅父何芙莲', relation: '启蒙师傅' },
+      { name: '白驹荣', relation: '师承' },
+      { name: '倪惠英', relation: '传人' },
+    ],
+  },
+  {
+    id: 'mashizeng',
+    name: '马师曾',
+    role: '丑生 · 马腔',
+    birthYear: 1900,
+    deathYear: 1964,
+    photoUrl: '/images/mashizeng.jpg',
+    troupe: '广东粤剧团',
+    signaturePlays: ['《苦凤莺怜》', '《关汉卿》', '《搜书院》'],
+    description:
+      '马腔创始人，唱腔苍劲雄浑、节奏铿锵，独创“乞儿腔”。他兼擅丑生与文武生，注重从生活中提炼表演，是粤剧革新与现实主义表演的先驱。',
+    timeline: [
+      { year: '1900', event: '生于广东顺德' },
+      { year: '1920', event: '加入“寰球乐”班，始用“马师曾”艺名' },
+      { year: '1956', event: '与红线女合作《搜书院》' },
+      { year: '1958', event: '主演《关汉卿》，塑造不屈文人形象' },
+      { year: '1964', event: '病逝于广州' },
+    ],
+    lineage: [
+      { name: '陈非侬', relation: '师承' },
+      { name: '红线女', relation: '长期合作搭档' },
+    ],
+  },
+  {
+    id: 'xuejuexian',
+    name: '薛觉先',
+    role: '文武生 · 薛腔',
+    birthYear: 1904,
+    deathYear: 1956,
+    photoUrl: '/images/xuejuexian.png',
+    troupe: '觉先声剧团',
+    signaturePlays: ['《胡不归》', '《姑缘嫂劫》', '《昭君出塞》'],
+    description:
+      '薛腔创始人，唱腔华美清越、韵味醇厚。他工武生兼擅小生，台风儒雅，推动粤剧“省港班”黄金时代，与马师曾并称“薛马争雄”。',
+    timeline: [
+      { year: '1904', event: '生于广东新会，出身粤剧世家' },
+      { year: '1930', event: '组建觉先声剧团，声名鹊起' },
+      { year: '1940', event: '与马师曾形成“薛马争雄”格局' },
+      { year: '1956', event: '病逝，薛腔广为流传' },
+    ],
+    lineage: [
+      { name: '薛觉非', relation: '家学渊源' },
+      { name: '罗品超', relation: '同门师兄弟' },
+    ],
+  },
+  {
+    id: 'baijurong',
+    name: '白驹荣',
+    role: '小生 · 白腔',
+    birthYear: 1892,
+    deathYear: 1974,
+    photoUrl: '/images/baijurong.webp',
+    troupe: '广东粤剧院',
+    signaturePlays: ['《情僧偷到潇湘馆》', '《逼上梁山》', '《白蛇传》'],
+    description:
+      '白腔创始人，唱腔清丽柔美、富有书卷气，是小生行当的一代典范。晚年双目失明仍坚持登台，其“盲唱”绝技成为粤剧史上一段佳话。',
+    timeline: [
+      { year: '1892', event: '生于广东顺德' },
+      { year: '1920', event: '成名于省港，以《情僧偷到潇湘馆》闻名' },
+      { year: '1950', event: '双目失明后仍坚持舞台演出' },
+      { year: '1974', event: '病逝' },
+    ],
+    lineage: [
+      { name: '红线女', relation: '传人' },
+      { name: '白玉堂', relation: '同门' },
+    ],
+  },
+  {
+    id: 'renjianhui',
+    name: '任剑辉',
+    role: '女文武生',
+    birthYear: 1913,
+    deathYear: 1989,
+    photoUrl: '/images/renjianhui.webp',
+    troupe: '仙凤鸣剧团',
+    signaturePlays: ['《帝女花》', '《紫钗记》', '《牡丹亭惊梦》'],
+    description:
+      '粤剧史上最负盛名的女文武生，女扮男装而毫无脂粉气。她与白雪仙组成“任白”组合，嗓音清越潇洒，将小生行当演绎得风流儒雅，风靡香江。',
+    timeline: [
+      { year: '1913', event: '生于广州，原名任丽初' },
+      { year: '1940', event: '与白雪仙开始长期合作' },
+      { year: '1956', event: '组建仙凤鸣剧团，与白雪仙共掌班政' },
+      { year: '1957', event: '主演《帝女花》，成为粤剧电影经典' },
+      { year: '1989', event: '病逝于香港' },
+    ],
+    lineage: [
+      { name: '白雪仙', relation: '终身舞台搭档' },
+      { name: '新马师曾', relation: '同门师兄弟' },
+    ],
+  },
+  {
+    id: 'baixuexian',
+    name: '白雪仙',
+    role: '旦角',
+    birthYear: 1928,
+    deathYear: null,
+    photoUrl: '/images/baixuexian.webp',
+    troupe: '仙凤鸣剧团',
+    signaturePlays: ['《帝女花》', '《紫钗记》', '《蝶影红梨记》'],
+    description:
+      '粤剧旦角巨匠，与任剑辉并称“任白”。其唱腔柔中带刚、做工细腻，塑造的长平公主等形象深入人心，晚年致力于粤剧传承与推广。',
+    timeline: [
+      { year: '1928', event: '生于广州，粤剧世家出身' },
+      { year: '1956', event: '与任剑辉组建仙凤鸣剧团' },
+      { year: '1959', event: '主演《紫钗记》成就粤剧经典' },
+      { year: '2013', event: '获香港艺术发展局终身成就奖' },
+    ],
+    lineage: [
+      { name: '白驹荣', relation: '父亲兼启蒙师傅' },
+      { name: '任剑辉', relation: '终身舞台搭档' },
+    ],
+  },
+  {
+    id: 'luojiabao',
+    name: '罗家宝',
+    role: '文武生 · 虾腔',
+    birthYear: 1930,
+    deathYear: 2016,
+    photoUrl: '/images/luojiabao.webp',
+    troupe: '广东粤剧院',
+    signaturePlays: ['《柳毅传书》', '《山乡风云》', '《红梅记》'],
+    description:
+      '虾腔创始人，唱腔宽厚圆润、亲切自然，以“平民化”风格著称。他工文武生，台风稳健，塑造了柳毅等众多儒雅书生形象。',
+    timeline: [
+      { year: '1930', event: '生于广东顺德' },
+      { year: '1950', event: '从艺成名，逐渐形成“虾腔”' },
+      { year: '1956', event: '主演《柳毅传书》成为代表作' },
+      { year: '2000', event: '获颁中国曲艺牡丹奖终身成就奖' },
+      { year: '2016', event: '病逝' },
+    ],
+    lineage: [
+      { name: '白驹荣', relation: '师承' },
+      { name: '曾小敏', relation: '传人' },
+    ],
+  },
+  {
+    id: 'nihuiying',
+    name: '倪惠英',
+    role: '旦角',
+    birthYear: 1956,
+    deathYear: null,
+    photoUrl: '/images/nihuiying.webp',
+    troupe: '广东粤剧院',
+    signaturePlays: ['《花月影》', '《魂牵珠玑巷》', '《山乡风云》'],
+    description:
+      '当代粤剧领军旦角，嗓音清丽、做工扎实，既承传统红腔神韵，又积极探索粤剧现代化表达，是改革开放后粤剧复兴的重要推动者。',
+    timeline: [
+      { year: '1956', event: '生于广州' },
+      { year: '1980', event: '入广东粤剧院，崭露头角' },
+      { year: '1990', event: '主演《魂牵珠玑巷》广获好评' },
+      { year: '2010', event: '荣获中国戏剧梅花奖' },
+    ],
+    lineage: [
+      { name: '红线女', relation: '师承' },
+      { name: '曾小敏', relation: '同门' },
+    ],
+  },
+  {
+    id: 'zengxiaomin',
+    name: '曾小敏',
+    role: '旦角',
+    birthYear: 1974,
+    deathYear: null,
+    photoUrl: '/images/zengxiaomin.webp',
+    troupe: '广东粤剧院',
+    signaturePlays: ['《白蛇传·情》', '《红头巾》', '《谯国夫人》'],
+    description:
+      '当代粤剧青年领军人物，唱做俱佳、台风灵动。她主演的《白蛇传·情》以创新美学吸引大量年轻观众，是粤剧“破圈”传播的代表人物。',
+    timeline: [
+      { year: '1974', event: '生于广东' },
+      { year: '2000', event: '入广东粤剧院，师承罗家宝' },
+      { year: '2015', event: '获中国戏剧梅花奖' },
+      { year: '2019', event: '主演电影《白蛇传·情》，粤剧破圈之作' },
+    ],
+    lineage: [
+      { name: '罗家宝', relation: '师承' },
+      { name: '倪惠英', relation: '同门' },
+    ],
+  },
+]
