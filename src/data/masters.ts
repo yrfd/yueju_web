@@ -7,7 +7,7 @@ export const masters: Master[] = [
     role: '旦角 · 红腔',
     birthYear: 1924,
     deathYear: 2013,
-    photoUrl: '/images/hongxiannv.webp',
+    photoUrl: 'images/hongxiannv.webp',
     troupe: '广东粤剧院',
     signaturePlays: ['《搜书院》', '《关汉卿》', '《昭君出塞》', '《荔枝颂》'],
     description:
@@ -31,7 +31,7 @@ export const masters: Master[] = [
     role: '丑生 · 马腔',
     birthYear: 1900,
     deathYear: 1964,
-    photoUrl: '/images/mashizeng.jpg',
+    photoUrl: 'images/mashizeng.jpg',
     troupe: '广东粤剧团',
     signaturePlays: ['《苦凤莺怜》', '《关汉卿》', '《搜书院》'],
     description:
@@ -54,7 +54,7 @@ export const masters: Master[] = [
     role: '文武生 · 薛腔',
     birthYear: 1904,
     deathYear: 1956,
-    photoUrl: '/images/xuejuexian.png',
+    photoUrl: 'images/xuejuexian.png',
     troupe: '觉先声剧团',
     signaturePlays: ['《胡不归》', '《姑缘嫂劫》', '《昭君出塞》'],
     description:
@@ -76,7 +76,7 @@ export const masters: Master[] = [
     role: '小生 · 白腔',
     birthYear: 1892,
     deathYear: 1974,
-    photoUrl: '/images/baijurong.webp',
+    photoUrl: 'images/baijurong.webp',
     troupe: '广东粤剧院',
     signaturePlays: ['《情僧偷到潇湘馆》', '《逼上梁山》', '《白蛇传》'],
     description:
@@ -98,7 +98,7 @@ export const masters: Master[] = [
     role: '女文武生',
     birthYear: 1913,
     deathYear: 1989,
-    photoUrl: '/images/renjianhui.webp',
+    photoUrl: 'images/renjianhui.webp',
     troupe: '仙凤鸣剧团',
     signaturePlays: ['《帝女花》', '《紫钗记》', '《牡丹亭惊梦》'],
     description:
@@ -121,7 +121,7 @@ export const masters: Master[] = [
     role: '旦角',
     birthYear: 1928,
     deathYear: null,
-    photoUrl: '/images/baixuexian.webp',
+    photoUrl: 'images/baixuexian.webp',
     troupe: '仙凤鸣剧团',
     signaturePlays: ['《帝女花》', '《紫钗记》', '《蝶影红梨记》'],
     description:
@@ -143,7 +143,7 @@ export const masters: Master[] = [
     role: '文武生 · 虾腔',
     birthYear: 1930,
     deathYear: 2016,
-    photoUrl: '/images/luojiabao.webp',
+    photoUrl: 'images/luojiabao.webp',
     troupe: '广东粤剧院',
     signaturePlays: ['《柳毅传书》', '《山乡风云》', '《红梅记》'],
     description:
@@ -166,7 +166,7 @@ export const masters: Master[] = [
     role: '旦角',
     birthYear: 1956,
     deathYear: null,
-    photoUrl: '/images/nihuiying.webp',
+    photoUrl: 'images/nihuiying.webp',
     troupe: '广东粤剧院',
     signaturePlays: ['《花月影》', '《魂牵珠玑巷》', '《山乡风云》'],
     description:
@@ -188,7 +188,7 @@ export const masters: Master[] = [
     role: '旦角',
     birthYear: 1974,
     deathYear: null,
-    photoUrl: '/images/zengxiaomin.webp',
+    photoUrl: 'images/zengxiaomin.webp',
     troupe: '广东粤剧院',
     signaturePlays: ['《白蛇传·情》', '《红头巾》', '《谯国夫人》'],
     description:

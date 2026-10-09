@@ -6,32 +6,32 @@ const roles = [
   {
     name: '文武生',
     desc: '文武双全的当家男主角，须兼具唱功与武打功底。',
-    photo: '/images/role-wenwusheng.jpg',
+    photo: 'images/role-wenwusheng.jpg',
   },
   {
     name: '小生',
     desc: '温文尔雅的青年男性角色，唱腔清越、举止斯文。',
-    photo: '/images/role-xiaosheng.webp',
+    photo: 'images/role-xiaosheng.webp',
   },
   {
     name: '正印花旦',
     desc: '头牌女主角，唱做俱佳，是戏班的核心旦角。',
-    photo: '/images/role-zhengyin.jpg',
+    photo: 'images/role-zhengyin.jpg',
   },
   {
     name: '二帮花旦',
     desc: '次席旦角，多为正印花旦的搭档或配角，戏路灵活。',
-    photo: '/images/role-erbang.jpg',
+    photo: 'images/role-erbang.jpg',
   },
   {
     name: '丑生',
     desc: '喜剧担当，插科打诨、针砭时弊，极具亲和力。',
-    photo: '/images/role-chousheng.jpg',
+    photo: 'images/role-chousheng.jpg',
   },
   {
     name: '武生',
     desc: '武打担当，工架扎实、身手矫健，多演英雄好汉。',
-    photo: '/images/role-wusheng.jpg',
+    photo: 'images/role-wusheng.jpg',
   },
 ]
 
@@ -93,7 +93,7 @@ export default function Basics() {
                 </div>
                 <ImagePlaceholder
                   label="粤剧演出 · 图片待替换"
-                  src="/images/basics-opera.jpg"
+                  src="images/basics-opera.jpg"
                   aspect="wide"
                 />
               </div>
