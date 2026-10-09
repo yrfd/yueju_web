@@ -21,10 +21,11 @@ export default function Home() {
           </div>
           <div className="rounded-xl bg-white p-6 shadow-card">
             <h3 className="mb-3 font-serif text-lg font-bold text-ink">大创项目署名</h3>
-            <p className="leading-relaxed text-ink/70">
-              本项目为大学生创新创业训练计划（大创）成果，旨在探索粤剧非物质文化遗产的数字化传播与青年化表达。
+            <p className="font-medium text-ink">华南农业大学</p>
+            <p className="mt-2 leading-relaxed text-ink/70">
+              项目名称：我校本科生对岭南本土文化的认同与接受的调查研究——以粤剧为对象
             </p>
-            <p className="mt-4 text-sm text-ink/50">粤剧数字文化平台 · 项目组</p>
+            <p className="mt-4 text-sm text-ink/50">制作人：李晨睿</p>
           </div>
         </div>
       </section>

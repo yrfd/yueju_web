@@ -28,8 +28,9 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t border-rice/10 pt-6 text-center text-xs text-rice/45">
-          <p>大创项目学术成果 · 粤剧数字文化平台</p>
-          <p className="mt-1">© {new Date().getFullYear()} 粤韵新生项目组</p>
+          <p>华南农业大学 · 大创项目学术成果</p>
+          <p className="mt-1">我校本科生对岭南本土文化的认同与接受的调查研究——以粤剧为对象</p>
+          <p className="mt-1">制作人：李晨睿 · © {new Date().getFullYear()}</p>
         </div>
       </div>
     </footer>
